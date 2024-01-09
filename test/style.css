@@ -1,0 +1,446 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 01 Nov 2022, 12:18:10
+    Author     : Master
+*/
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color:  goldenrod;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 6px;
+    padding: 8px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color:  goldenrod;
+    background: #e44d26;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    color:  goldenrod;
+}
+
+nav a:hover,
+nav a:visited {
+    color:  goldenrod;
+}
+
+nav a:hover {
+
+    text-decoration: goldenrod ;
+
+}
+
+
+a:active, a:hover {
+
+    outline: 0;
+}
+
+nav ul li a {
+
+    text-decoration: aqua;
+    color:  goldenrod;
+
+}
+
+nav,.header{
+
+    display: block;
+
+}
+
+
+
+.wrapper {
+
+    width: 90%;
+    margin: 0 5%;
+}
+.Container {
+
+    border-bottom: 20px solid #e44d26 ;
+}
+
+.Container, .footer-container, .main aside {
+
+    background: antiquewhite;
+}
+
+.Container {
+
+    border-bottom: 20px solid  goldenrod;
+}
+
+.clearfix:before, .clearfix:after {
+
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+
+    clear: both;
+
+}
+.clearfix:before, .clearfix:after {
+
+    content: " ";
+    display: table;
+
+}
+.footer-container,
+.main aside {
+
+    border-top: 20px solid  goldenrod;
+
+}
+
+.header-container,
+.footer-container,
+.main aside {
+
+    background: #f16529;
+
+}
+
+.main {
+
+    padding: 20px 0;
+
+}
+
+.main article h1 {
+
+    font-size: 2em;
+}
+
+.main aside {
+
+    color: white;
+    padding: 0px 5% 8px;
+
+}
+.main aside,.twitter-tweet,.instagram-media {
+
+    float: left;
+    width: 80%;
+
+}
+.Video{
+
+    width:100%;
+
+}
+.ahref{
+
+    color: goldenrod;
+}
+.BR{
+
+    text-decoration: aqua;
+    font-size: 15px;
+    color:  #000000;
+
+}
+.GetInvolved{
+
+    background:linear-gradient(155deg, antiquewhite,goldenrod,#e44d26);
+
+}
+.footer-container{
+
+    width: 100%;
+
+}
+
+@media only screen and (min-width: 480px) {
+
+    nav a {
+
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+
+        margin-right: 0;
+    }
+
+    nav ul li {
+
+        display: inline;
+    }
+
+    .oldie nav a {
+
+        margin: 0 0.7%;
+
+    }
+    .SocialM{
+
+        width: 60px;
+        height: 50px;
+
+
+    }
+    textarea{
+
+        width: 100%;
+
+    }
+    .Form{
+
+        width: 100px;
+
+    }
+    .GetInvolved{
+
+        max-width: 300px;
+        width: 100%;
+        padding: 20px 26px;
+        border-radius: 25px;
+        background:linear-gradient(155deg, antiquewhite,goldenrod,#e44d26);
+
+    }
+
+
+}
+@media only screen and (min-width: 658px) {
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 500px) and (min-width: 768px ) {
+
+    Container, .main aside {
+
+        -webkit-box-shadow: 0 5px 10px #aaa;
+        -moz-box-shadow: 0 5px 10px #aaa;
+        box-shadow: 0 5px 10px #aaa;
+    }
+
+    .title {
+
+        float: left;
+
+    }
+
+
+    nav a {
+
+        float: left;
+        width: 7.9%;
+        position:  initial;
+        font-size: 8.4px;
+    }
+
+
+    .main article {
+
+        float: left;
+        width: 37%;
+    }
+    .Image {
+        width: 100%;
+        float: left;
+    }
+    .main aside{
+
+        float: right;
+        width: 30%;
+    }
+    .wrapper {
+
+        width: 90%;
+        margin: 0 5%;
+    }
+    .Form{
+
+        width: 100%;
+
+    }
+    .Volunteer{
+
+        width: 400px;
+        height: 500px;
+
+    }
+    .images{
+
+        width: 100%;
+
+    }
+
+
+    .Terms{
+
+        float: right;
+        padding-right: 2%;
+
+    }
+    .GetInvolved,.Form{
+
+        max-width: 80%;
+
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1026px) {
+
+    .wrapper {
+
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav a ul li {
+
+        float: left;
+        width: 10%;
+        text-decoration: aqua;
+        color:  goldenrod;
+        font-size: 10px;
+
+    }
+    .images{
+        float: left;
+        width: 400px;
+        height: 200px;
+
+    }
+    .Volunteer{
+
+        width: 1200px;
+        height: 400px;
+
+
+    }
+    .Founders,.Staff,.Angels{
+
+        float: left;
+        margin: 10px;
+        padding: 10px;
+
+    }
+    .Angels,.footer-container{
+
+        width: 100%;
+
+    }
+    .footer-container{
+
+        float: left;
+        width: 100%;
+
+    }
+    .GetInvolved,.Form{
+
+        max-width: 80%;
+
+    }
+
+
+}
+@media only screen and (min-width: 1440px) {
+
+    .wrapper {
+
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav a ul li {
+
+        float: left;
+        width: 70%;
+        text-decoration: aqua;
+        color:  goldenrod;
+
+    }
+    .image,.images{
+
+        width: 70%;
+        height: 30%;
+
+
+    }
+    .Volunteer{
+
+        width: 1200px;
+        height: 500px;
+
+    }
+    .images{
+
+        width: 700px;
+        height: 400px;
+    }
+}
+
